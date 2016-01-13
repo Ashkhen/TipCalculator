@@ -193,7 +193,6 @@
 				TargetAttributes = {
 					5AC7A8C21C4483E1009A21D4 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = WD3L3KWM4G;
 					};
 					5AC7A8D61C4483E1009A21D4 = {
 						CreatedOnToolsVersion = 7.2;
@@ -400,7 +399,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.a5.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,7 +412,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.a5.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
