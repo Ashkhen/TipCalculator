@@ -25,8 +25,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         tipLabel.text = "0.00"
         totalLabel.text = "0.00"
-        karmaPoints = preferences.integerForKey("Karma")
-        karmaPointsLabel.text = String(karmaPoints)
         billField.becomeFirstResponder()
         
     }
@@ -42,10 +40,11 @@ class ViewController: UIViewController {
             karmaPointsLabel.text = String(karmaPoints)
             karmaPointsLabel.frame = CGRectMake(300, 300, 0, 300)
             UIView.animateWithDuration(0.8, animations: { () -> Void in
-                self.karmaPointsLabel.frame = CGRectMake(200, 10, 50, 100)
+                self.karmaPointsLabel.frame = CGRectMake(49, 50, 222, 58)
             })
             preferences.synchronize()
             view.endEditing(true)
+            confirmButton.enabled = false
         }
         
     }
@@ -66,6 +65,9 @@ class ViewController: UIViewController {
     func calcTip() {
         let tipPercentages = [0.18, 0.2, 0.25]
         let tipPercentage = tipPercentages[tipControl.selectedSegmentIndex]
+        
+        karmaPoints = preferences.integerForKey("Karma")
+        karmaPointsLabel.text = String(karmaPoints)
         
         if tipPercentage == 0.18 {
             karmaPoints += 1
