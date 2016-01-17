@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5AC7A8BE1C4483E0009A21D4 /* Build configuration list for PBXProject "tips" */;
+			buildConfigurationList = 5AC7A8BE1C4483E0009A21D4 /* Build configuration list for PBXProject "Tips" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -403,7 +403,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.a5.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,7 +418,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.a5.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -477,7 +477,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5AC7A8BE1C4483E0009A21D4 /* Build configuration list for PBXProject "tips" */ = {
+		5AC7A8BE1C4483E0009A21D4 /* Build configuration list for PBXProject "Tips" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5AC7A8E91C4483E1009A21D4 /* Debug */,
