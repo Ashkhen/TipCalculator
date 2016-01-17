@@ -4,6 +4,8 @@
 
 - Added a Karma Bank feature to reward karma points based on chosen tip percentage; ensured button is only activated when there is a valid dollor value, and is disabel until next dolloar amount is entered.
 
+- Karma Points are saved using **NSUserDefaults**
+
 - Added animation to karama points label.
 
 Approximate time spent: **7 hours**
