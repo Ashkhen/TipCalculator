@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func confirmButtonClick(sender: AnyObject) {
-        if billField != "" {
+        if billField.text != "" {
             preferences.setInteger(karmaPoints, forKey: "Karma")
             karmaPointsLabel.text = String(karmaPoints)
             karmaPointsLabel.frame = CGRectMake(300, 300, 0, 300)
